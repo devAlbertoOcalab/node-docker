@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  node-app:
+    volumes:
+      - ./dist:/dist:ro
+      - /dist/node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run dev

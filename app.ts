@@ -23,5 +23,5 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-    res.status(200).send('Hello word!!!!!!!!!!!!!!!!!!!!!!!!!!!');
+    res.status(200).send('Hello word');
 });
