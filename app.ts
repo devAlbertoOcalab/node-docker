@@ -1,6 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
+import mongoose from 'mongoose';
 
 dotenv.config();
 
@@ -23,5 +24,5 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-    res.status(200).send('Hello word');
+    res.status(200).send('Hello word!!!');
 });
